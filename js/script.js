@@ -14,6 +14,7 @@ const global = {
 };
 
 
+
 async function displayPopularMovies() {
     const { results } = await fetchAPIData('movie/popular');
     
@@ -450,6 +451,20 @@ function showAlert(message, className = 'error') {
   setTimeout(() => alertEl.remove(), 3000);
 }
 
+function highlightLogo() {
+  const logo = document.getElementsByClassName('logo')[0];
+
+  // Add a mouseover event listener to add the highlight
+  logo.addEventListener("mouseover", function() {
+    logo.classList.add("logo-highlighted");
+  });
+// Add a mouseout event listener to remove the highlight
+  logo.addEventListener("mouseout", function() {
+    logo.classList.remove("logo-highlighted");
+  });
+  
+}
+
 //Init App
 function init() {
     switch (global.currentPage) {
@@ -473,9 +488,13 @@ function init() {
     }
 
     highlightActiveLink();
+    highlightLogo();
+
+    
 }
 
 
 
 
 document.addEventListener('DOMContentLoaded', init);
+

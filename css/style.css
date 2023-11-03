@@ -340,3 +340,9 @@ section h2 {
 .error {
   background: red;
 }
+
+.logo-highlighted {
+  border: 2px solid yellow;
+  padding: 5px;
+}
+
