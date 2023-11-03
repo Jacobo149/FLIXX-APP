@@ -1,4 +1,4 @@
-# FLIXX-APP
+# SKADS-APP
 Application developed in tandem with Udemy course. Altered to be unique.  
 Leverages TMDB movie database to display popular movies/shows as well as a wealth of other important information to discover.
 
@@ -17,7 +17,7 @@ Leverages TMDB movie database to display popular movies/shows as well as a wealt
 
 Application deployed to Netlify. Click the link below.  
 
-<a href="https://phenomenal-sunflower-087d60.netlify.app/" target="_blank">FLIXX-APP</a>
+<a href="https://phenomenal-sunflower-087d60.netlify.app/" target="_blank">SKADS-APP</a>
 
 
 
