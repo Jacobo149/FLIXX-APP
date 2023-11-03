@@ -343,6 +343,6 @@ section h2 {
 
 .logo-highlighted {
   border: 2px solid yellow;
-  padding: 5px;
+  color: yellow;
 }
 
