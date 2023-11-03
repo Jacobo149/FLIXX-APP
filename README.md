@@ -12,7 +12,7 @@
 
 Application deployed to Netlify. Click the link below.  
 
-<a href="https://phenomenal-sunflower-087d60.netlify.app/" target="_blank">Shopping List</a>
+<a href="https://phenomenal-sunflower-087d60.netlify.app/" target="_blank">FLIXX-APP</a>
 
 
 
