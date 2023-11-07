@@ -13,11 +13,18 @@ Leverages TMDB movie database to display popular movies/shows as well as a wealt
 - Search for a specific film via the search bar
 
 
+
 ## How to Run
 
 Application deployed to Netlify. Click the link below.  
 
 <a href="https://phenomenal-sunflower-087d60.netlify.app/" target="_blank">SKADS-APP</a>
+
+## Bugs
+Netlify deployment does not allow "TV Shows" to pop up. For the full experience, follow the steps below:
+- Download the repo to the local computer
+- Open in VSCode
+- Run live server extension to open website
 
 
 
